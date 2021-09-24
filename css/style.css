@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Open+Sans:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&family=Rock+Salt&family=Architects+Daughter&display=sw');
+
+  .parallax {
+    /* The image used */
+    background-image: url("../img/deku-parallax-2.jpg");
+  
+    /* Set a specific height */
+    height: 800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("../img/deku-ofa-parallax2.jpg");
+  
+    /* Set a specific height */
+    height: 800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../img/ofa-vestigios-parallax-3.jpg");
+  
+    /* Set a specific height */
+    height: 11%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../img/deku-green-blue-parallax-4.jpg");
+  
+    /* Set a specific height */
+    height: 225px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url("../img/deku-studying-parallax5.png");
+  
+    /* Set a specific height */
+    height: 530px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Rock Salt;
+    color: #fff;
+    font-size: 2rem;
+    background: green;
+    padding:5px 5px;
+    margin: 0px 0px;
+}
+
+header h3,
+header h1,
+header p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #0f524c;
+    list-style: none;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 17px 0px;
+    font-family: 'Rock Salt';
+    color: #edffff;
+    font-weight: 800;
+}
+
+/*SECTION IZUKU MIDORIYA*/
+
+section#izuku-midoriya h2{
+    font-family: 'Rock Salt';
+    font-size: 1.2rem;
+    color: #0f524c;
+}
+
+section#izuku-midoriya h3{
+    font-family: 'Rock Salt';
+    font-size: 1.2rem;
+    color: #0f524c;
+}
+
+section#izuku-midoriya p{
+    font-family:'Architects Daughter';
+    color: #0f524c;
+}
+
+section#izuku-midoriya div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+section h2,
+section h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0%;
+}
+
+section#izuku-midoriya div.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#izuku-midoriya div.row p{
+    padding: 40px 520px;
+    width: 1000px;
+    height: 120px;
+    text-align: justify;
+    margin: 0%;
+}
+
+section#izuku-midoriya div.row img{
+    border-radius: 20%;
+    display:flex;
+    text-align: center;
+}
+
+/*INSTITUCION SECTION*/
+
+section#institucion div.row:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*section#institucion div.row p{
+    padding: 0px 650px;
+    width: 1000px;
+    height: 120px;
+    text-align: justify;
+}*/
+
+section#institucion div.row:nth-child(4) {
+    border-radius: 0%;
+    display:flex;
+    text-align: center;
+}
+section#institucion div.row article{
+    width: 25%;
+    height: 200px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+
+section#institucion div.row:nth-child(2) article{
+    background-color: #0a556a;
+    color: #33fafc;
+    font-family: 'Raleway';
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+section#institucion div.row:nth-child(1) h3{
+    text-align: center;
+    color:#fff;
+    font-family: 'Rock Salt';
+    font-size: 1rem;
+}
+
+section#institucion div.row:nth-child(1) h2 {
+    text-align: center;
+    color:#fff;
+    font-family: 'Rock Salt';
+    font-size: 1.5rem;
+}
+
+section#institucion div.row:nth-child(1) p{
+    text-align: center;
+    color:#fff;
+    font-family: 'Architects Daughter';
+    font-size: 21px;
+}
+section#institucion.parallax div.row:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section#institucion div.row:nth-child(1) img{
+    display: flex
+    aling;
+}
+section#institucion.parallax2 div.row:nth-child(2):nth-child(1){
+    background-color: #0f524c;
+    color: #edffff;
+    font-family: 'Open-Sans';
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+section#institucion.parallax2 div.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+section#institucion.parallax2 div.row article ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*SECTION SINGULARIDAD*/
+
+section#singularidad div.row:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#singularidad div.row:nth-child(1) h2{
+    font-family: 'Rock Salt';
+    font-size: 1.5rem;
+    color: #0f524c;
+}
+
+section#singularidad div.row:nth-child(1) h3{
+    font-family: 'Rock Salt';
+    font-size: 1.2rem;
+    color: #0f524c;
+}
+
+section#singularidad div.row:nth-child(1):nth-child(1) p{
+    font-family:'Architects Daughter';
+    font-size: 21px;
+    padding: 40px 520px;
+    width: 1000px;
+    height: 120px;
+    text-align: justify;
+    color: #0f524c;
+}
+
+section#dones.parallax3 div.row article{
+    background-color: #0a1a29;
+    color: #8dfab5;
+    font-family: 'Raleway';
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+section#dones.parallax3 div.row article{
+    width: 20%;
+    height: 190px;
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 55px;
+    transition: all 400ms;
+}
+
+section#dones.parallax3
+ div.row article{
+    display: flex;
+    justify-content: center;
+}
+
+section#dones.parallax3 div.row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*SECTION DEKU*/
+
+section#deku div.row h2{
+    font-family: 'Rock Salt';
+    font-size: 2rem;
+    color: #0f524c;
+}
+
+section#deku div.row p{
+    font-family: 'Architects Daughter';
+    padding: 10px 870px;
+    font-size: 21px;
+    color: #0f524c;
+}
+
+section#deku div#div2.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*SECTION ENCARGOS¨*/
+
+section#encargos div.row:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#encargos div.row h2{
+    font-family: 'Rock Salt';
+    font-size: 2rem;
+    color:#0f524c
+}
+
+section#encargos div.row p{
+    font-family: 'Architects Daughter';
+    font-size: 22px;
+    color: #0f524c;
+}
+
+
+section#encargos div.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#lista.parallax4 div.row article {
+    width: 20%;
+    height: 190px;
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 70px;
+    transition: all 400ms;
+}
+
+section#lista.parallax4 div.row article{
+    background-color: #2cac01;
+    color: #8dfab5;
+    font-family: 'Raleway';
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+section#lista.parallax4 div.row article p{
+    color: #8dfab5;
+    font-family: 'Architects Daughter';
+    font-size: 15px;
+    display: flex;
+
+}
+
+section#lista.parallax4 div.row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*SECTION ESCRIBEME*/
+section#escribeme.parallax5 div.row article#form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    color: #edffff;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+section#escribeme.parallax5 div.row article#form form input,
+section#escribeme.parallax5 div.row article#form form textarea{
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 15px;
+    border: 1px solid #fff;
+}
+
+section#escribeme.parallax5 div.row article#form button{
+    cursor: pointer;
+    border-radius: 15%;
+    color: #edffff;
+    background-color: #0f524c;
+    padding: 15px 30px;
+    transition: all 300ms;
+    font-size: 1.15rem;
+}
+
+section#escribeme.parallax5 div.row h2,
+section#escribeme.parallax5 div.row p{
+    color: #edffff;
+}
+
+section#encargos footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0f524c;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+section#encargos footer div a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+section#encargos footer div {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 300ms;
+}
